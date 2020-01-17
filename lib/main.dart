@@ -7,6 +7,14 @@ import './Page/Page4.dart';
 import './Page/Page5.dart';
 import './Page/Page6.dart';
 import './Page/Page7.dart';
+import './Page/Page8.dart';
+import './Page/Page9.dart';
+import './Page/Page10.dart';
+import './Page/Page11.dart';
+import './Page/Page12.dart';
+import './Page/Page13.dart';
+import './Page/Page14.dart';
+import './Page/Page15.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,7 +37,15 @@ class _BirdState extends State<MyApp> {
 //      home: new Page4(),
 //      home: new Page5(),
 //      home: new Page6(),
-      home: new Page7(),
+//      home: new Page7(),
+//      home: new Page8(),
+//      home: new Page9(),
+//      home: new Page10(),
+//      home: new Page11(),
+//      home: new Page12(),
+//       home: new Page13(),
+//       home: new Page14(),
+       home: new Page15(),
 
 
     );

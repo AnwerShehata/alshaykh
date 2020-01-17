@@ -7,6 +7,8 @@ class Page7 extends StatefulWidget {
 }
 
 class _BirdState extends State<Page7> {
+  String imageURL = "";
+
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -72,9 +74,16 @@ class _BirdState extends State<Page7> {
                   ],
                 ),),
 
-                new Expanded(flex: 1,
-                  child: my_ImageCircleAccount( width: 50 , imagURL: "https://img.ltwebstatic.com/images3_pi/2019/10/23/1571822218eebe14f09da6428706c7b4e420da296a_thumbnail_900x.webp")
-                ),
+                new Container(
+                  margin: EdgeInsets.symmetric(horizontal: 5),
+                  height: 70,
+                  width: 70,
+                  decoration: BoxDecoration(
+                      color: an1,
+                      borderRadius: BorderRadius.circular(50),
+                    image: DecorationImage(image: NetworkImage(imageURL))
+                  ),
+                )
 
   ],
             ),
